@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".SplashScreenActivity">
+
+    <RelativeLayout
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_bg"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.splash.SplashFragment">
+
+        <ImageView
+            android:id="@+id/imageViewLargeCloud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_splash_big_cloud" />
+
+        <ImageView
+            android:id="@+id/imageViewTinyCloud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/ic_splash_small_cloud" />
+
+        <ImageView
+            android:id="@+id/imageViewEllipseStructure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_splash_bg_ellipse" />
+
+        <ImageView
+            android:id="@+id/imageViewShadowAtBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="220dp"
+            android:src="@drawable/ic_splash_bottom_drawable_shadow_drawable" />
+
+        <ImageView
+            android:id="@+id/imageViewAtBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:scaleType="center"
+            android:src="@drawable/ic_splash_bottom_drawable" />
+
+        <ImageView
+            android:id="@+id/imageViewCentralCloud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/imageViewEllipseStructure"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_splash_screen_main_logo" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

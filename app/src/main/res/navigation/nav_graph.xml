@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/DashboardFragment">
+
+    <fragment
+        android:id="@+id/DashboardFragment"
+        android:name="com.example.weatherapp.DashboardFragment"
+        android:label="@string/dashboard_fragment"
+        tools:layout="@layout/fragment_dashboard">
+
+        <action
+            android:id="@+id/action_Dashboard_to_Search"
+            app:destination="@id/SearchFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SearchFragment"
+        android:name="com.example.weatherapp.SearchFragment"
+        android:label="@string/search_fragment"
+        tools:layout="@layout/fragment_search">
+
+        <action
+            android:id="@+id/action_Search_to_Dashboard"
+            app:destination="@id/DashboardFragment" />
+    </fragment>
+</navigation>

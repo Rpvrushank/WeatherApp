@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="api_key">google_api_key</string>
+    <string name="weather_api_key">weather_api_key</string>
+
+    <!-- Fragments -->
+    <string name="dashboard_fragment">Dashboard</string>
+    <string name="info_fragment">Info</string>
+    <string name="search_fragment">Search</string>
+</resources>
