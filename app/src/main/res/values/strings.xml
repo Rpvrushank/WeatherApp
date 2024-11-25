@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">WeatherApp</string>
     <string name="action_settings">Settings</string>
-    <string name="api_key">google_api_key</string>
-    <string name="weather_api_key">weather_api_key</string>
+    <string name="api_key">AIzaSyBslJzuDf8Q9s_tTmeUkm-xgMiZuntMzN4</string>
+    <string name="weather_api_key">c420fa5c34f5ebe25990ab96f899da41</string>
 
     <!-- Fragments -->
     <string name="dashboard_fragment">Dashboard</string>
