@@ -59,10 +59,10 @@
 
         <ImageView
             android:id="@+id/imageViewCentralCloud"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
             android:layout_alignTop="@id/imageViewEllipseStructure"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/ic_splash_screen_main_logo" />
+            android:src="@drawable/cloudy" />
     </RelativeLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
